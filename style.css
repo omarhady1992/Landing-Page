@@ -11,8 +11,14 @@ html {
 }
 
 h1 {
-    font-size: 3 rem;
+    font-size: 3rem;
     color: cornsilk;
+}
+
+hr {
+    border-width: 3px;
+    border-color: rgb(240, 3, 3);
+    max-width: 65px;
 }
 
 .btn {
@@ -22,7 +28,7 @@ h1 {
 }
 
 .btn-xl {
-    background-color: indianred;
+    background-color: rgb(248, 0, 0);
     padding: 1rem 3rem;
 }
 
@@ -31,7 +37,9 @@ h1 {
 }
 
 .btn-xl:active {
-    background-color: blue;
-    box-shadow: 0 10px #666;
     transform: translateY(5px);
+}
+
+.buffer {
+    height: 5rem;
 }
