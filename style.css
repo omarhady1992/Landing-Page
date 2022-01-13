@@ -14,3 +14,24 @@ h1 {
     font-size: 3 rem;
     color: cornsilk;
 }
+
+.btn {
+    font-weight: 700;
+    border-radius: 500px;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    background-color: indianred;
+    padding: 1rem 3rem;
+}
+
+.btn-xl:hover {
+    background-color: crimson;
+}
+
+.btn-xl:active {
+    background-color: blue;
+    box-shadow: 0 10px #666;
+    transform: translateY(5px);
+}
